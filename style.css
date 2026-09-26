@@ -1,20 +1,11 @@
 :root {
-  --bg: #fbfaf7;
+  color-scheme: light;
+  --bg: #ffffff;
   --text: #1f1f1d;
   --muted: #5f5d57;
   --rule: #e2dfd7;
   --accent: #1d4f7a;
   --accent-hover: #0f3556;
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #161615;
-    --text: #e9e6df;
-    --muted: #a5a199;
-    --rule: #33322f;
-    --accent: #8cb8e0;
-    --accent-hover: #b5d3ef;
-  }
 }
 
 * { box-sizing: border-box; }
